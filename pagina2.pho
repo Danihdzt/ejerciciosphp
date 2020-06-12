@@ -1,0 +1,65 @@
+// Ejercicio 4
+	echo ( "<br>" );
+	
+	
+
+	// Ejercicio 5
+	echo ( "<br>" );
+	$ mayorIngreso ;
+	
+
+	$ nombre1 = "Juan Pérez" ;
+	$ nombre2 = "Ana Gaviria" ;
+	$ nombre3 = "Pedro Mesa" ;
+	$ nombre4 = "Catalina Castaño" ;
+	$ nombre5 = "Gabriel Rodriguez" ;
+	
+
+	$ telefono1 = "3224567898" ;
+	$ telefono2 = "3014569852" ;
+	$ telefono3 = "3108965474" ;
+	$ telefono4 = "3148555555" ;
+	$ telefono5 = "3001234879" ;
+	
+
+	$ direccion1 = "Cll 100 sur # 35a-25" ;
+	$ direccion2 = "Cll 90 # 10-80" ;
+	$ direccion3 = "Cll 85 # 25-10" ;
+	$ direccion4 = "Cll 100 sur # 35a-27" ;
+	$ direccion5 = "Cr 37 # 100-20" ;
+	
+
+	$ salario1 = 3520000 ;
+	$ salario2 = 4580000 ;
+	$ salario3 = 1250000 ;
+	$ salario4 = 3800000 ;
+	$ salario5 = 6490000 ;
+	
+
+	$ sumatoriaA = $ salario1 + $ salario2 + $ salario3 + $ salario4 + $ salario5 ;
+	$ sumatoriaB = 20000000 ;
+	$ sumatoriaC = 15000000 ;
+	
+
+	echo ( "<br> Ejercicio # 5" );
+	echo ( "<br> Los usuarios registrados en la sucursal A son:" );
+	echo ( "<br>" );
+	echo ( "<br>" . $ nombre1 . "-" . $ telefono1 . "-" . $ direccion1 . "- $" . $ salario1 );
+	echo ( "<br>" . $ nombre2 . "-" . $ telefono2 . "-" . $ direccion2 . "- $" . $ salario2 );
+	echo ( "<br>" . $ nombre3 . "-" . $ telefono3 . "-" . $ direccion3 . "- $" . $ salario3 );
+	echo ( "<br>" . $ nombre4 . "-" . $ telefono4 . "-" . $ direccion4 . "- $" . $ salario4 );
+	echo ( "<br>" . $ nombre5 . "-" . $ telefono5 . "-" . $ direccion5 . "- $" . $ salario5 . "<br>" );
+	
+
+	
+
+	if ( $ sumatoriaA > $ sumatoriaB && $ sumatoriaA > $ sumatoriaC ) {
+	    $ mayorIngreso = "El mayor ingreso lo tiene la sucursal A" ;
+	} else  if ( $ sumatoriaB > $ sumatoriaA && $ sumatoriaB > $ sumatoriaC ) {
+	    $ mayorIngreso = "El mayor ingreso lo tiene la sucursal B" ;
+	} else  if ( $ sumatoriaC > $ sumatoriaA && $ sumatoriaC > $ sumatoriaB ) {
+	    $ mayorIngreso = "El mayor ingreso lo tiene la sucursal C" ;
+	}
+	
+
+	echo ( "<br>" . $ mayorIngreso );
